@@ -1,5 +1,11 @@
 # Changelog
 
+## Qualification candidate on v1.3.2
+
+  * Retire known closed cached connections before attempting a new POST/PATCH.
+    This is the isolated backport of upstream PR #7, with no post-write retry.
+
+
 ## v1.3.2 (2026-11-04)
 
   * The README has the newest result: one 16-core Phoenix server held
